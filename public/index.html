@@ -4,14 +4,70 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description"
+      content="Le site de jeux en ligne de la Loterie Romande. Vos jeux préférés sur Smartphones, Tablettes et ordinateurs. Maintenant la chance est toujours avec vous !" />
+    <!--<link rel="icon" href="<%= BASE_URL %>favicon.ico">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/static/images/favicons/ms-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="/static/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link href="/static/styles/styles-2bd9fb.css" rel="stylesheet" type="text/css" />
+    <!-- sports and horses styles. combined at the moment but will be broken into separate files with more meaningful names-->
+    <script async type="text/javascript" src="//try.abtasty.com/18fa1d2c15f3e54db635f12df90a2520.js"></script>
+    </head>
+
+    <title>Swiss Loto Standard</title>
+    <!--<title><%= htmlWebpackPlugin.options.title %></title>-->
   </head>
-  <body>
+  <body data-test-id="swiss_loto">
+    <script type="application/json" id="utagData">
+            {
+                        "gbl_day_of_week" : "Friday",
+                        "gbl_player_logged_in" : "N",
+                        "game_type" : "dbg",
+                        "gbl_channel" : "Website",
+                        "game_name" : "swiss loto",
+                        "gbl_hour_of_day" : "11:58",
+                        "game_sub_type" : "standard",
+                        "gbl_language_code" : "fr-CH",
+                        "gbl_timestamp" : "20200918",
+                        "gbl_journey_name" : "play_swiss_loto_standard",
+                        "gbl_device_type" : "Desktop",
+                        "game_id" : "swisslotto",
+    
+                    "gbl_pagename" : "Play Swiss Loto - STANDARD | Games | Loterie Romande",
+    
+                    "gbl_page_type" : "dbg_play_page",
+                "gbl_site_section" : "games" 
+            }
+        </script>
+        <script type="text/javascript" src="/static/scripts/tagging/tealium-be1b5d.js"
+          data-tagging-url="//tags.tiqcdn.com/utag/loro/main/prod/utag.js" />
+        </script>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+<script type="text/javascript" src="/static/scripts/libs-8a9362.js"/></script>
+<script type="text/javascript" src="/static/scripts/handlebs-488cb4.js"/></script>
+<script type="text/javascript" src="/static/scripts/core-fc5088.js"/></script>
+<script defer type="text/javascript" src="/static/scripts/dbg/play-boardGame-standard-326b4b.js"></script>
+<script defer type="text/javascript" src="/static/scripts/pages/widgets-74ce1b.js"></script>
+<script defer type="text/javascript" src="/static/scripts/dbg/apply-favourites-0a8618.js"></script>
   </body>
 </html>
